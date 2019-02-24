@@ -20,19 +20,16 @@ def sort_array_char_count(array)
     a.length <=> b.length
     end
 
-
 end
 
 def swap_elements(array)
 
-  second = array[1]
-  third = array[2]
   return_array = []
   return_array.push(array[0])
-  return_array.push(third)
-  return_array.push(second)
+  return_array.push(array[2])
+  return_array.push(array[1])
+  return_array.push(array[3..-1])
 
-  return_array
 end
 
 def reverse_array
