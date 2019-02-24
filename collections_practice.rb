@@ -47,8 +47,10 @@ def find_a(array)
 
 end
 
-def sum_array
-
+def sum_array(array)
+  tally = 0
+  array.each {|x| tally += x }
+  tally
 end
 
 def add_s
