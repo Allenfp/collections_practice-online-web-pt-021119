@@ -45,7 +45,7 @@ def swap_elements(array)
   return_array.push(array[0])
   return_array.push(third)
   return_array.push(second)
-  return_array.push(array[3..-1])
+
   return_array
 end
 
