@@ -46,7 +46,7 @@ def swap_elements(array)
   return_array.push(third)
   return_array.push(second)
   return_array.push(array[3:])
-
+  return_array
 end
 
 def reverse_array
