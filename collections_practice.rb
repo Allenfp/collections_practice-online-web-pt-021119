@@ -1,7 +1,14 @@
 # include 'pry'
 
-def sort_array_asc
-
+def sort_array_asc(array)
+  array.sort do |a, b|
+    if a == begin
+      0
+    elsif a < b
+      -1
+    elsif a > b
+      1
+    end
 end
 
 def sort_array_desc
