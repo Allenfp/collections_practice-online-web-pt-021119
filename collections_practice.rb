@@ -62,7 +62,7 @@ def add_s(array)
   array.each {|x|
 
     if i != 2
-      x[-1..-1] = "s"
+      x += "s"
     end
 
     i += 1
