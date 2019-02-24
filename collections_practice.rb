@@ -37,7 +37,7 @@ end
 
 def kesha_maker(array)
 
-  array.sort! {|x| x[3] = "$"}
+  array.each! {|x| x[3] = "$"}
 
 end
 
