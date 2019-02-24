@@ -48,11 +48,23 @@ def find_a(array)
 end
 
 def sum_array(array)
+
   tally = 0
   array.each {|x| tally += x }
   tally
+
 end
 
-def add_s
+def add_s(array)
+
+  i = 0
+
+  array.each {|x|
+
+    if i != 2
+      x[-1..-1] = s
+    end
+
+  }
 
 end
