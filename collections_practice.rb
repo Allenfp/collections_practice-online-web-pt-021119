@@ -65,6 +65,8 @@ def add_s(array)
       x[-1..-1] = s
     end
 
+    i += 1
+
   }
 
 end
